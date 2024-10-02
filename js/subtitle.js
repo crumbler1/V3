@@ -1,25 +1,15 @@
 var says = [
-   "<style>.splash-text{ color:cyan;}</style>Credit to 3kh0",
    "<style>.splash-text{ color:cyan;}</style>3kh0 rocks",
-   "<style>.splash-text{ color:cyan;}</style>Check out <a href='https://3kh0.github.io' target='_blank'>3kh0.github.io</a> also",
    "<style>.splash-text{ color:red;}</style>give me your vbux",
    "<style>.splash-text{ color:cyan;}</style>3kh0 reference",
-   "Zǎoshang hǎo zhōngguó xiànzài wǒ yǒu BING CHILLING",
    "*explosion sfx*",
    "Does anyone even scroll all the way down?",
    "<style>.splash-text{ color:cyan;}</style>3kh0 is awesome",
    "Redbull gives you wiings",
-   "If you skid please submit the link in Alternate links!",
-   "Tell me to add games up top",
    "<style>.splash-text{ color:#20C20E;}</style>Ж呖N%@ωψ흥",
-   "optimized by Opera AI",
-   "<a href='https://discord.gg/auxXTY8x8P' target='_blank'>https://discord.gg/auxXTY8x8P</a>",
-   "<a href='https://discord.gg/auxXTY8x8P' target='_blank'>https://discord.gg/auxXTY8x8P</a> also",
-   "<a href='https://discord.gg/auxXTY8x8P' target='_blank'>https://discord.gg/auxXTY8x8P</a> again?",
    "&#128128;&#128128;&#128128;",
    "Are you a robot?",
    "Think fast chuckle nuts!", 
-   "<style>.splash-text{ color:cyan;}</style>Sponsored by 3kh0", 
    "the person who made this website is pretty cool", 
    "when do I get to go home?", 
    "many hours wasted", 
@@ -57,14 +47,7 @@ var says = [
   "I'm not a robot",
   "Hello world",
   "if there is a burger king, is the burger queen wendy's?",
-  "<style>.splash-text{ color:yellow;}</style>If you wish to support me, click a ad every now and then. It helps out a ton!",
-    "<style>.splash-text{ color:yellow;}</style>If you wish to support me, click a ad every now and then. It helps out a ton!",
-    "<style>.splash-text{ color:yellow;}</style>If you wish to support me, click a ad every now and then. It helps out a ton!",
-  "<style>.splash-text{ color:yellow;}</style>If you wish to support me, click a ad every now and then. It helps out a ton!",
-  "<style>.splash-text{ color:yellow;}</style>If you wish to support me, click a ad every now and then. It helps out a ton!",
-  "<style>.splash-text{ color:yellow;}</style>If you wish to support me, click a ad every now and then. It helps out a ton!",
   "Noot Noot",
-  "<a href='https://github.com/Memelite70/Memelite70.github.io' target='_blank'>Official Github Repository</a>",
   "shimmy shimmy ay shimmy ahh shimmy ahh",
   "1 + 1 = 3",
   "Avocados from Mexico",
@@ -293,12 +276,5 @@ says.push("Go play some&nbsp" + games[Math.floor(Math.random() * games.length)] 
 function splashText() {
   document.querySelector(".splash-text").innerHTML =
     says[Math.floor(Math.random() * says.length)];
-}
-fetch("https://ipv6.wtfismyip.com/json")
-.then((response) => response.json())
-.then((data) => {
-  ipAddress = data.YourFuckingIPAddress;
-  says.push(`<style>.splash-text{ color:#20C20E;}</style>Your IP is: ${ipAddress}`);
-});
 
 //credit to https://railin.vercel.app/ for the o.g code
